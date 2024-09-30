@@ -1,0 +1,55 @@
+import java.io.FileNotFoundException;
+
+public class Application {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		
+		Dictionary d = new Dictionary();
+		d.loadDictionary();
+		
+		System.out.print(d.searchDictionary("Tenet"));
+		
+		d.printDictionary();
+		
+		
+		Map d2 = new Map();
+		d2.loadDictionary();
+		
+		
+	
+		d2.printDictionary();
+		
+		System.out.println(d2.searchDictionary("Apperance"));
+		
+		Map d3 = new Map();
+		d3.loadDictionary();
+		d3.printDictionary();
+		
+		System.out.println(d3.searchDictionary("Bend"));
+
+		
+		
+		Map d4 = new Map();
+		d4.loadDictionary();
+		d4.printDictionary();
+		
+		System.out.println(d4.searchDictionary("Amend"));
+
+		
+		Map d5 = new Map();
+		d5.loadDictionary();
+		d5.printDictionary();
+		
+		System.out.println(d5.searchDictionary("Football"));
+
+		
+		
+	}//end main
+
+}//end class
+
+
+	
+
+
